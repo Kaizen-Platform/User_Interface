@@ -1,0 +1,14 @@
+/*.navbar{
+    display: grid;
+    grid-template-columns: 1fr 5fr 60px;
+    
+}*/
+.navbar-left{
+    flex:1 0 20%;
+}
+.dashboard-main{
+    flex:1 0 75%;
+}
+.navbar-right{
+    flex:1 0 5%;
+}

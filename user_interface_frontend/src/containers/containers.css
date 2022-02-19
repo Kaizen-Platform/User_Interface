@@ -1,0 +1,242 @@
+.dashboard-body::-webkit-scrollbar{
+    display: none;
+}
+
+.dashboard-body{
+    height:100vh;
+    line-height: 1;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+.dashboard-main{
+    overflow-y:auto;
+    height: 100%;
+   
+}
+.dashboard-wrapper{
+    display: flex;
+    height: 100%;
+}
+.profile-dashboard{
+    width: 100%;
+    
+}
+.profile-nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#005fcc 0%,#0091e6 75%);
+    position: relative;
+   
+}
+.profile-photo{
+    width:150px;
+}
+.profile-photo img{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 4px solid #0af;
+}
+.profile-links{
+    margin-right: 10px;
+    
+}
+.p-userdetails{
+    margin-left: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.p-personaldetails{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+   
+}
+.pusername{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+.p-id{
+    align-self: center;
+}
+
+.p-button{
+    align-self: flex-end;
+    display: grid;
+    justify-self: end;
+    grid-template-columns: 1fr 1fr;
+}
+.p-button button{
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width:150px;
+    margin: 0 10px;
+    font-size: 15px;
+}
+.p-create,.p-edit:hover{
+  background-color: #0af;
+  color: #fff;
+  border: 2px solid white;
+}
+.p-edit,.p-create:hover{
+    background-color: #fff;
+    color:#0af;
+    border: 2px solid #0af;
+}
+.plink{
+    color: #fff;
+    font-style: normal;
+}
+.profile-link{
+    margin: 10px;
+    color: white;
+}
+.plogo{
+    width:180px;
+    margin-right: 10px;
+}
+.plogo img{
+    margin-left: 10px;
+    width: 100%;
+}
+.plogo,.profile-links{
+    justify-self: center;
+    align-self: center;
+}
+.pro-links{
+    margin:30px 10px 0 10px;
+}
+.profile-links{
+    display: flex;
+    justify-content: start;
+    
+}
+
+.p-profile{
+    position: absolute;
+    top:15%;
+    left:15%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    justify-self: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.user-work{
+    display: flex;
+    flex-direction: row;
+   
+}
+.user-work p:first-child{
+    margin: 0 20px 0 10px;
+}
+.user-work p{
+    margin: 0 20px;
+    color:rgba(0,0,0,0.6)
+}
+.profile-options{
+   margin-top: 180px;
+}
+
+.pro-links{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 2fr;
+    justify-items: center;
+}
+/*new ideas*/
+.newIdeas{
+    width:80%;
+    min-height: 80vh;
+    
+    margin:50px auto;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 2fr 4fr 0.5fr;
+}
+.dp-small{
+    width:80px;
+}
+.dp-small img{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Idea-page{
+    background-color: rgba(235,235,235,0.60);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.Idea-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+}
+.idea-uid,.summary,.description,.submit{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.idea-uid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.uid{
+    align-self: flex-start;
+    padding: 11px 15px;   
+    background-color: #fff;
+    
+}
+.uid,.idea-role,.newidea-category{
+    margin: 0 10px;
+    border:2px solid #0af;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.submit-idea{
+    align-self: center;
+    padding: 10px;
+    background-color: #0af;
+    margin: 0 55px 20px 55px;
+    border:2px solid #0af;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor:pointer;
+    
+}
+.submit-idea:hover{
+    color:#0af;
+    background-color: transparent;
+}
